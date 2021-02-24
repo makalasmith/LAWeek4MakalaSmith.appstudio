@@ -10,3 +10,6 @@ console.log(`The third pet is named ${petNames[2]}.`)
 
 let petNamesLength = petNames.length
 console.log(`The array has ${petNamesLength} names in it.`)
+
+petNames.pop()
+console.log(petNames)
