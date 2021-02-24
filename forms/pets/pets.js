@@ -1,9 +1,12 @@
 let petNames = ["Darcy", "Jack", "Jerry", "Marty", "Vito", "Vinny", "Riley", "Saddie", "Marge", "Sam"]
 console.log(petNames)
 
-// let withSal = petNames
+let withSal = petNames
+let newPet = "Sal"
+withSal.push(newPet)
+console.log(withSal)
 
-petNames.push("Sal")
+petNames.push(newPet)
 console.log(petNames)
 
 console.log(`The third pet is named ${petNames[2]}.`)
